@@ -1,0 +1,58 @@
+[
+  {
+    "page_label": "Please fill the form",
+    "fields": [
+      {
+        "field_id": "english_name",
+        "field_label": "Name",
+        "field_mandatory": "yes",
+        "field_placeholder": "Enter name",
+        "field_type": "text",
+        "field_value": ""
+      },
+      {
+        "field_id": "email",
+        "field_label": "Email",
+        "field_mandatory": "yes",
+        "field_placeholder": "Enter email",
+        "field_type": "text"
+      },
+      {
+        "field_id": "gender",
+        "field_label": "Gender",
+        "field_value": "Male",
+        "field_mandatory": "yes",
+        "field_options": [
+          {
+            "option_label": "Male"
+          },
+          {
+            "option_label": "Female"
+          }
+        ],
+        "field_type": "select"
+      },
+      {
+        "field_id": "contact",
+        "field_label": "Contact No.",
+        "field_mandatory": "yes",
+        "field_placeholder": "Enter contact no.",
+        "field_type": "text"
+      },
+
+      {
+        "field_id": "Citizenship Number",
+        "field_label": "Citizenship Number",
+        "field_mandatory": "yes",
+        "field_placeholder": "e.g. 012 345 678",
+        "field_type": "text"
+      },
+      {
+        "field_id": "Terms",
+        "field_label": "I agree with all the terms and conditions",
+        "field_type": "checkbox",
+        "field_value": "checked"
+      }
+    ]
+  }
+]
